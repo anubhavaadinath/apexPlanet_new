@@ -1,0 +1,27 @@
+body { font-family: sans-serif; padding: 2rem; }
+    #todoForm input {
+      padding: 0.5rem;
+      width: 70%;
+      margin-right: 0.5rem;
+    }
+    #todoForm button {
+      padding: 0.5rem 1rem;
+    }
+    ul { list-style: none; padding: 0; }
+    li {
+      background: #f9f9f9;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li button {
+      background: crimson;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+    }
